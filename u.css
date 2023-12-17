@@ -16,7 +16,8 @@ span{
  line-height: normal;
  letter-spacing: 0.78px;
 }
-.ctudia{color: #2196F3;
+.ctudia{
+    color: #2196F3;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -220,3 +221,18 @@ letter-spacing: 0.48px;
  height: 260px;
  flex-shrink: 0;
 }
+
+
+
+
+:root{ 
+    --punkt: #FFF; 
+    --nom: rgba(255, 255, 255, 0.60); 
+    --cek-u: #757575; 
+    --cek-l: #212121;
+    --golova-button: rgba(0, 0, 0, 0.15);
+    --golova:#2F303A;
+    --ee: #F5F4FA;
+    --com:#2196F3;
+    --logo: #000;
+ }
