@@ -223,6 +223,11 @@ letter-spacing: 0.48px;
  height: 260px;
  flex-shrink: 0;
 }
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
 
 
 
@@ -237,9 +242,4 @@ letter-spacing: 0.48px;
     --ee: #F5F4FA;
     --com:#2196F3;
     --logo: #000;
- }
-
- li {
-    list-style-type: none;
-    /* Убираем маркеры */
-  }
+}
