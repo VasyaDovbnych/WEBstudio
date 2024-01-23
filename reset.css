@@ -20,5 +20,27 @@ img{
     display: block;
 }
 
-
-  
+header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+#mail{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+#text{
+    padding-top: 94px;
+    padding-left: 94px;
+}
+#about{
+    padding-left: 94px;
+}
+#team{
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+#footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

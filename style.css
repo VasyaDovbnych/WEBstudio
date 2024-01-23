@@ -43,7 +43,7 @@ span{
  line-height: normal;
  letter-spacing: 0.28px;
 }
-.com{
+.mail{
     color: #2196F3;
  font-family: Roboto;
  font-size: 14px;
@@ -52,7 +52,7 @@ span{
  line-height: normal;
  letter-spacing: 0.28px;
 }
-.nom{
+.tel{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
@@ -63,13 +63,13 @@ span{
 }
 
 
-#golova{
+#mail{
     background-color:#2F303A;
     width: 1600px;
  height: 600px;
  flex-shrink: 0;
 }
-.golova-nas{
+.title{
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -80,7 +80,7 @@ span{
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
-.golova-button{
+.main-button{
     border-radius: 4px;
  background: #2196F3;
 
@@ -102,7 +102,7 @@ span{
 }
 
 
-.perevag-k{
+.text-title{
     color: #212121;
  font-family: Roboto;
  font-size: 14px;
@@ -112,7 +112,7 @@ span{
  letter-spacing: 0.42px;
  text-transform: uppercase;
 }
-.perevag-g{
+.text-p{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
@@ -133,14 +133,15 @@ h2{
  letter-spacing: 1.08px;
 }
 
-#cek{
+
+.team-photo{
     width: 270px;
  height: 368px;
  flex-shrink: 0;
  border-radius: 0px 0px 4px 4px;
  background: #FFF;
 }
-.cek-l{
+.team-title{
     color: #212121;
 text-align: center;
 font-family: Roboto;
@@ -150,7 +151,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
 }
-.cek-u{
+.team-text{
     color: #757575;
 text-align: center;
 font-family: Roboto;
@@ -170,7 +171,7 @@ letter-spacing: 0.48px;
  letter-spacing: 0.78px;
 }
 
-.comm{
+.mail{
     color: rgba(255, 255, 255, 0.60);
     font-family: Roboto;
     font-size: 14px;
@@ -182,7 +183,7 @@ letter-spacing: 0.48px;
     height: 21px;
     flex-shrink: 0;
 }
-.nom{
+.tel{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
@@ -194,7 +195,7 @@ letter-spacing: 0.48px;
  height: 21px;
  flex-shrink: 0;
 }
-.punkt{
+.adress{
     color: #FFF;
  font-family: Roboto;
  font-size: 14px;
