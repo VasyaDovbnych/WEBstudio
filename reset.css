@@ -19,3 +19,10 @@ img{
     width: 100%;
     display: block;
 }
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
