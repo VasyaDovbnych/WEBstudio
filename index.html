@@ -1,48 +1,52 @@
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <a href="index.html" class="logo"><span class="logo-f">Web</span>Studio</a>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="ctudia">Студія</a></li>
-                
-                    <li><a href="https://vasyadovbnych.github.io/Photobblog/" class="portfolio">Портфоліо</a></li>
-                
-                    <li><a href="#" class="kontakt">Контакти</a></li>
-                </ul>
-            </nav>
-            <ul>                
-                <li><a href="mail:info@devstudio.com" class="com">info@devstudio.com</a></li>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="ctudia">Студія</a></li>
             
-                <li><a href="tel:+380961111111" class="nom">+38 096 111 11 11</a></li>
+                <li><a href="https://vasyadovbnych.github.io/Photobblog/" class="portfolio">Портфоліо</a></li>
+            
+                <li><a href="#" class="kontakt">Контакти</a></li>
             </ul>
-        </header>
+        </nav>
+        <ul>                
+            <li><a href="mail:info@devstudio.com" class="com">info@devstudio.com</a></li>
         
-        <!--main-->
+            <li><a href="tel:+380961111111" class="nom">+38 096 111 11 11</a></li>
+        </ul>
+        </div>
+    </header>
     
-        <main>
-    
-            <!--Головна секція-->
-    
-         <section class="main" id="mail">
-            <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1> 
-            <button class="main-button">Замовити послугу</button>
-         </section>
-    
-         <!--Переваги-->
-    
-         <section class="text" id="text">
+    <!--main-->
+
+    <main>
+
+        <!--Головна секція-->
+
+     <section class="main" id="mail">
+        <div class="container">
+         <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1> 
+         <button class="main-button">Замовити послугу</button>
+        </div> 
+     </section>
+
+     <!--Переваги-->
+
+     <section class="text" id="text">
+        <div class="container">
             <ul>
                 <li>
                     <h3 class="text-title">УВАГА ДО ДЕТАЛЕЙ</h3> 
@@ -64,11 +68,13 @@
                     <p class="text-p">Значимість цих проблем настільки <br>очевидна, що реалізація планових <br>завдань.</p>
                 </li>
             </ul>
-         </section>
-    
-         <!--Чим займаємось-->
-    
-         <section class="about" id="about">
+        </div>
+     </section>
+
+     <!--Чим займаємось-->
+
+     <section class="about" id="about">
+        <div class="container">
             <h2>Чим ми займаємося</h2>
             <ul class="about-photo">
                 <li><img src="./iimg/img.png" alt="f"></li>
@@ -77,61 +83,66 @@
             
                 <li><img src="./iimg/img2.png" alt="l"></li>
             </ul>
-         </section>
-    
-         <!--Команда-->
-    
-         <section class="team" id="team">
+        </div>
+     </section>
+
+     <!--Команда-->
+
+     <section class="team" id="team">
+        <div class="container">
             <h2>Наша команда</h2>
-            <ul>
-                <li class="team-photo">
-                    <img src="./iimg/imgx.jpg" class="photo"> 
-                    <div>
-                        <h3 class="team-title">Ігор Дем'яненко</h3>
-                        <p class="team-text">Product Designer</p>
-                    </div>
-                </li>
-            
-                <li class="team-photo">
-                    <img src="./iimg/img;.jpg" class="photo">
-                    <div>
-                        <h3  class="team-title">Ольга Рєпіна</h3>
-                        <p class="team-text">rontend Developer</p>
-                    </div>
-                </li>
-            
-                <li class="team-photo">
-                    <img src="./iimg/imgh.jpg" class="photo">
-                    <div>
-                        <h3 class="team-title">Микола Тарасов</h3>
-                        <p class="team-text">Marketing</p>
-                    </div>
-                </li>
-            
-                <li class="team-photo">
-                    <img src="./iimg/imgll.jpg" class="photo">
-                    <div>
-                     <h3 class="team-title">Михайло Єрмаков</h3>
-                     <p class="team-text">UI Designer</p>
-                    </div>
-                </li>
-            </ul>
-         </section>
-        </main>
-    
-         <!--Футер-->
-    
-        <footer class="footer" id="footer">
+         <ul>
+            <li class="team-photo">
+                <img src="./iimg/imgx.jpg" class="photo"> 
+                <div>
+                    <h3 class="team-title">Ігор Дем'яненко</h3>
+                    <p class="team-text">Product Designer</p>
+                </div>
+            </li>
+        
+            <li class="team-photo">
+                <img src="./iimg/img;.jpg" class="photo">
+                <div>
+                    <h3  class="team-title">Ольга Рєпіна</h3>
+                    <p class="team-text">rontend Developer</p>
+                </div>
+            </li>
+        
+            <li class="team-photo">
+                <img src="./iimg/imgh.jpg" class="photo">
+                <div>
+                    <h3 class="team-title">Микола Тарасов</h3>
+                    <p class="team-text">Marketing</p>
+                </div>
+            </li>
+        
+            <li class="team-photo">
+                <img src="./iimg/imgll.jpg" class="photo">
+                <div>
+                 <h3 class="team-title">Михайло Єрмаков</h3>
+                 <p class="team-text">UI Designer</p>
+                </div>
+            </li>
+         </ul>
+        </div>
+     </section>
+    </main>
+
+     <!--Футер-->
+
+    <footer class="footer" id="footer">
+        <div class="container">
             <a href="index.html" class="logoo"><span class="logo-f">Web</span>Studio</a>
             <address>
                 <a href="#" class="adress">м. Київ, пр-т Лесі Українки, 26</a>
                 <a href="mail:info@devstudio.com" class="mail">info@devstudio.com</a>
                 <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
             </address>
-        </footer> 
+        </div>
+    </footer> 
         
     
-    </div>
+    
    
     
 
