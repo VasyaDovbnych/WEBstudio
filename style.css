@@ -2,68 +2,32 @@ span{
     color: #2196F3;
  font-family: Raleway;
  font-size: 26px;
- font-style: normal;
  font-weight: 700;
- line-height: normal;
  letter-spacing: 0.78px;
 }
 .logo{
     color: #000;
  font-family: Raleway;
  font-size: 26px;
-  font-style: normal;
   font-weight: 700;
- line-height: normal;
  letter-spacing: 0.78px;
 }
-.ctudia{
-    color: #2196F3;
+.container-item{
+    color: #000000;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
-.portfolio{
-    color: #212121;
- font-family: Roboto;
- font-size: 14px;
- font-style: normal;
- font-weight: 500;
- line-height: normal;
- letter-spacing: 0.28px;
-}
-.kontakt{
-    color: #212121;
- font-family: Roboto;
- font-size: 14px;
-   font-style: normal;
- font-weight: 500;
- line-height: normal;
- letter-spacing: 0.28px;
-}
-.mail{
-    color: #2196F3;
- font-family: Roboto;
- font-size: 14px;
- font-style: normal;
- font-weight: 500;
- line-height: normal;
- letter-spacing: 0.28px;
-}
-.tel{
+.contakts-item{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
- font-style: normal;
  font-weight: 500;
- line-height: normal;
  letter-spacing: 0.28px;
 }
 
-
-#mail{
+#main{
     background-color:#2F303A;
     width: 1600px;
  height: 600px;
@@ -74,11 +38,11 @@ span{
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px; /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 .main-button{
     border-radius: 4px;
@@ -95,28 +59,24 @@ span{
  text-align: center;
  font-family: Roboto;
  font-size: 16px;
- font-style: normal;
  font-weight: 700;
  line-height: 30px; /* 187.5% */
  letter-spacing: 0.96px;
 }
 
 
-.text-title{
+.benefits-title{
     color: #212121;
  font-family: Roboto;
  font-size: 14px;
- font-style: normal;
  font-weight: 700;
-  line-height: normal;
  letter-spacing: 0.42px;
  text-transform: uppercase;
 }
-.text-p{
+.benefits-text{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
- font-style: normal;
  font-weight: 400;
  line-height: 24px; /* 171.429% */
  letter-spacing: 0.42px;
@@ -127,9 +87,7 @@ h2{
  text-align: center;
  font-family: Roboto;
  font-size: 36px;
- font-style: normal;
  font-weight: 700;
- line-height: normal;
  letter-spacing: 1.08px;
 }
 
@@ -146,9 +104,7 @@ h2{
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: normal;
 letter-spacing: 0.48px;
 }
 .team-text{
@@ -156,38 +112,20 @@ letter-spacing: 0.48px;
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 letter-spacing: 0.48px;
 }
-.logoo{
+.logo-footer{
     color: #FFF;
  font-family: Raleway;
  font-size: 26px;
- font-style: normal;
  font-weight: 700;
- line-height: normal;
  letter-spacing: 0.78px;
 }
-
-.mail{
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 171.429% */
-    letter-spacing: 0.42px;
-    width: 136px;
-    height: 21px;
-    flex-shrink: 0;
-}
-.tel{
+.adress-link{
     color: #757575;
  font-family: Roboto;
  font-size: 14px;
- font-style: normal;
  font-weight: 400;
  line-height: 24px; /* 171.429% */
  letter-spacing: 0.42px;
@@ -195,11 +133,10 @@ letter-spacing: 0.48px;
  height: 21px;
  flex-shrink: 0;
 }
-.adress{
+.adress-name{
     color: #FFF;
  font-family: Roboto;
  font-size: 14px;
- font-style: normal;
  font-weight: 400;
  line-height: 24px; /* 171.429% */
  letter-spacing: 0.42px;
@@ -247,5 +184,66 @@ li {
     margin: 0 auto;
     padding: 0 15px;
 }
+.navigation-list{
+    display: flex;
 
+}
+.navigation-item{
+    margin-right: 50px;
+
+}
+.contakts{
+    display: flex;
+}
+.contakts-item{
+    margin-left: 50px;
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    margin-right: 93px;
+}
+.benefits-list{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits-item{
+    width: 270px;
+}
+.about-photo{
+    display: flex;
+    justify-content: space-between;
+}
+.about-item{
+    width: 370px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+}
+.team-photo{
+    width: 270px;
+}
+.adress{
+    display: flex;
+    flex-direction: column;
+}
+.adress-link{
+    margin-top: 9px;
+}
+.adress-name{
+    margin-top: 20px;
+}
+.team-item{
+    margin-bottom: 50px;
+}
 

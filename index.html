@@ -2,31 +2,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="index.html" class="logo"><span class="logo-f">Web</span>Studio</a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="ctudia">Студія</a></li>
+        <div class="container header-wrap">
+            <nav class="navigation">
+               <a href="index.html" class="logo"><span class="span-logo">Web</span>Studio</a>
+               <ul class="navigation-list">
+                 <li class="navigation-item"><a href="index.html" class="container-item">Студія</a></li>
             
-                <li><a href="portfolio.html" class="portfolio">Портфоліо</a></li>
+                 <li class="navigation-item"><a href="portfolio.html" class="container-item">Портфоліо</a></li>
             
-                <li><a href="#" class="kontakt">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul>                
-            <li><a href="mail:info@devstudio.com" class="com">info@devstudio.com</a></li>
+                 <li class="navigation-item"><a href="#" class="container-item">Контакти</a></li>
+                </ul>
+            </nav>
+         <ul class="contakts">                
+            <li><a href="mail:info@devstudio.com" class="contakts-item">info@devstudio.com</a></li>
         
-            <li><a href="tel:+380961111111" class="nom">+38 096 111 11 11</a></li>
-        </ul>
+            <li><a href="tel:+380961111111" class="contakts-item">+38 096 111 11 11</a></li>
+         </ul>
         </div>
     </header>
     
@@ -36,7 +36,7 @@
 
         <!--Головна секція-->
 
-     <section class="main" id="mail">
+     <section class="main" id="main">
         <div class="container">
          <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1> 
          <button class="main-button">Замовити послугу</button>
@@ -45,27 +45,27 @@
 
      <!--Переваги-->
 
-     <section class="text" id="text">
+     <section class="benefits" id="benefits">
         <div class="container">
-            <ul>
-                <li>
-                    <h3 class="text-title">УВАГА ДО ДЕТАЛЕЙ</h3> 
-                    <p class="text-p">Ідейні міркування, і навіть початок <br>повсякденної роботи з формування <br> позиції.</p>
+            <ul class="benefits-list">
+                <li class="benefits-item">
+                    <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3> 
+                    <p class="benefits-text">Ідейні міркування, і навіть початок <br>повсякденної роботи з формування <br> позиції.</p>
                 </li>
         
-                <li>
-                    <h3 class="text-title">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="text-p">Завдання організації, особливо рамки <br>і місце навчання кадрів тягне у себе.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="benefits-text">Завдання організації, особливо рамки <br>і місце навчання кадрів тягне у себе.</p>
                 </li>
         
-                <li>
-                    <h3 class="text-title">ПЛАНУВАННЯ</h3>
-                    <p class="text-p">Так само консультація з широким <br>активом значною мірою зумовлює.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
+                    <p class="benefits-text">Так само консультація з широким <br>активом значною мірою зумовлює.</p>
                 </li>
         
-                <li>
-                    <h3 class="text-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="text-p">Значимість цих проблем настільки <br>очевидна, що реалізація планових <br>завдань.</p>
+                <li class="benefits-item">
+                    <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="benefits-text">Значимість цих проблем настільки <br>очевидна, що реалізація планових <br>завдань.</p>
                 </li>
             </ul>
         </div>
@@ -75,13 +75,13 @@
 
      <section class="about" id="about">
         <div class="container">
-            <h2>Чим ми займаємося</h2>
+            <h2 class="team-item">Чим ми займаємося</h2>
             <ul class="about-photo">
-                <li><img src="./iimg/img.png" alt="f"></li>
+                <li class="about-item"><img src="./iimg/img.png" alt="f"></li>
             
-                <li><img src="./iimg/img1.png" alt="j"></li>
+                <li class="about-item"><img src="./iimg/img1.png" alt="j"></li>
             
-                <li><img src="./iimg/img2.png" alt="l"></li>
+                <li class="about-item"><img src="./iimg/img2.png" alt="l"></li>
             </ul>
         </div>
      </section>
@@ -90,8 +90,8 @@
 
      <section class="team" id="team">
         <div class="container">
-            <h2>Наша команда</h2>
-         <ul>
+            <h2 class="team-item">Наша команда</h2>
+         <ul class="team-list">
             <li class="team-photo">
                 <img src="./iimg/imgx.jpg" class="photo"> 
                 <div>
@@ -132,11 +132,11 @@
 
     <footer class="footer" id="footer">
         <div class="container">
-            <a href="index.html" class="logoo"><span class="logo-f">Web</span>Studio</a>
-            <address>
-                <a href="#" class="adress">м. Київ, пр-т Лесі Українки, 26</a>
-                <a href="mail:info@devstudio.com" class="mail">info@devstudio.com</a>
-                <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
+            <a href="index.html" class="logo-footer"><span class="span-logo">Web</span>Studio</a>
+            <address class="adress">
+                <a href="#" class="adress-name">м. Київ, пр-т Лесі Українки, 26</a>
+                <a href="mail:info@devstudio.com" class="adress-link">info@devstudio.com</a>
+                <a href="tel:+380961111111" class="adress-link">+38 096 111 11 11</a>
             </address>
         </div>
     </footer> 
