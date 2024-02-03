@@ -138,6 +138,15 @@ letter-spacing: 0.48px;
  width: 231px;
  height: 21px;
 }
+.button{
+    width: 125px;
+    height: 38px;
+    border:none;
+}
+.button:hover {
+    background-color: #2196F3;
+    transition: 0.7s;
+}
 #footer{
     width: 1600px;
  height: 252px;
@@ -236,5 +245,11 @@ li {
 }
 .team-item{
     margin-bottom: 50px;
+}
+.team-photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
