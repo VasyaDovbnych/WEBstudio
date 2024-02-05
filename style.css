@@ -142,6 +142,9 @@ letter-spacing: 0.48px;
     width: 125px;
     height: 38px;
     border:none;
+    margin-top: 95px;
+    margin-bottom: 50px;
+    
 }
 .button:hover {
     background-color: #2196F3;
@@ -222,6 +225,7 @@ li {
 .about-photo{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .about-item{
     width: 370px;
