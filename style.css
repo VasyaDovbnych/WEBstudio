@@ -138,9 +138,11 @@ letter-spacing: 0.48px;
  width: 231px;
  height: 21px;
 }
+.about-button{
+    justify-content: center;
+    display: flex;
+}
 .button{
-    width: 125px;
-    height: 38px;
     border:none;
     margin-top: 95px;
     margin-bottom: 50px;
@@ -150,9 +152,7 @@ letter-spacing: 0.48px;
     transition: 0.7s;
 }
 #footer{
-    width: 1600px;
- height: 252px;
- background: #2F303A;
+ background-color: #2F303A;
 }
 #ee{
     width: 1600px;
