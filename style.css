@@ -91,6 +91,7 @@ h2{
 
 .team-photo{
  background: #FFF;
+ width: 1600px;
 }
 .team-photo img{
     width: 270px;
@@ -157,6 +158,7 @@ h2{
 }
 #footer{
  background-color: #2F303A;
+ width: 1600px;
 }
 #ee{
     width: 1600px;
@@ -186,7 +188,7 @@ li {
 }
 
 .container {
-    width: auto;
+  width: auto;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -256,5 +258,13 @@ li {
 .team-item{
     margin-bottom: 50px;
 }
+.about .container{
+    padding-bottom: 94px;
+}
+.benefits .container{
+    padding-bottom: 94px;
+}
+
+
 
 
