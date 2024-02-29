@@ -165,10 +165,10 @@ h2{
  height: 1680px;
  background: #F5F4FA;
 }
-.photo{
+/* .photo{
     width: 270px;
  height: 260px;
-}
+} */
 li {
     list-style-type: none;
     /* Убираем маркеры */
@@ -283,8 +283,13 @@ li {
     margin: 94px;
     margin-bottom: 34px;
 }
-li::before{
-    background-image: url(photo1.jpg);
+.about-item::before{
+    background-image: url(photo.jpg), url(photo1.jpg), url(photo2.jpg);
+}
+.photo::before{
+    background-image: url(./iimg/imgx.jpg), url(./iimg/img;.jpg), url(./iimg/imgh.jpg), url(./iimg/imgll.jpg);
+    width: 270px;
+    height: 260px;
 }
 
 
