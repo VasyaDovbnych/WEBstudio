@@ -234,6 +234,7 @@ li {
 }
 .about-item{
     width: 370px;
+    
 }
 .team-list{
     display: grid;
@@ -264,7 +265,26 @@ li {
 .benefits .container{
     padding-bottom: 94px;
 }
-
-
+.team-title-photo{
+    box-shadow: 1px 1px 1px gainsboro;
+    padding: 30px;
+    margin: 30px;
+}
+.button{
+    width: 125px;
+    height: 38px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    background-color: F5F4FA;
+    box-shadow: 1px 1px 1px gainsboro;
+}
+.about-button{
+    margin: 94px;
+    margin-bottom: 34px;
+}
+li::before{
+    background-image: url(photo1.jpg);
+}
 
 
