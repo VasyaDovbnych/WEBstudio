@@ -291,5 +291,9 @@ li {
     width: 270px;
     height: 260px;
 }
+.team-title-photo::before{
+    background-image: url(./iimg/img10.png), url(./iimg/img11.png), url(./iimg/img12.png), url(./iimg/img13.png), url(./iimg/img14.png), url(./iimg/img15.png), url(./iimg/img16.png), url(./iimg/img17.png), url(./iimg/img18.png),;
+}
+
 
 
