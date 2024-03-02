@@ -29,7 +29,7 @@ span{
 
 #main{
     background-color:#2F303A;
-    width: 1600px;
+    /* width: 1600px; */
 }
 .title{
     color: #FFF;
@@ -91,7 +91,7 @@ h2{
 
 .team-photo{
  background: #FFF;
- width: 1600px;
+ /* width: 1600px; */
 }
 .team-photo img{
     width: 270px;
@@ -158,10 +158,10 @@ h2{
 }
 #footer{
  background-color: #2F303A;
- width: 1600px;
+ /* width: 1600px; */
 }
 #ee{
-    width: 1600px;
+    /* width: 1600px; */
  height: 1680px;
  background: #F5F4FA;
 }
@@ -188,7 +188,7 @@ li {
 }
 
 .container {
-  width: auto;
+    width: 1200рх;
     margin: 0 auto;
     padding: 0 15px;
 }
