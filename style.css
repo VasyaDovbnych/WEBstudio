@@ -1,170 +1,191 @@
-span{
+span {
     color: #2196F3;
- font-family: Raleway;
- font-size: 26px;
- font-weight: 700;
- letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
 }
-.logo{
+
+.logo {
     color: #000;
- font-family: Raleway;
- font-size: 26px;
-  font-weight: 700;
- letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
 }
-.container-item{
+
+.container-item {
     color: #000000;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
 }
-.contakts-item{
+
+.contakts-item {
     color: #757575;
- font-family: Roboto;
- font-size: 14px;
- font-weight: 500;
- letter-spacing: 0.28px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
 }
 
-#main{
-    background-color:#2F303A;
+#main {
+    background-color: #2F303A;
     /* width: 1600px; */
 }
-.title{
+
+.title {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 60px;
+    /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
-.main-button{
+
+.main-button {
     border-radius: 4px;
- background: #2196F3;
+    background: #2196F3;
 
- box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
- width: 216px;
- height: 50px;
- margin: 0 auto;
- display: block;
- color: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 216px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    color: #FFF;
 
- text-align: center;
- font-family: Roboto;
- font-size: 16px;
- font-weight: 700;
- line-height: 30px; /* 187.5% */
- letter-spacing: 0.96px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
 }
 
 
-.benefits-title{
+.benefits-title {
     color: #212121;
- font-family: Roboto;
- font-size: 14px;
- font-weight: 700;
- letter-spacing: 0.42px;
- text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
-.benefits-text{
+
+.benefits-text {
     color: #757575;
- font-family: Roboto;
- font-size: 14px;
- font-weight: 400;
- line-height: 24px; /* 171.429% */
- letter-spacing: 0.42px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
 }
 
-h2{
+h2 {
     color: #212121;
- text-align: center;
- font-family: Roboto;
- font-size: 36px;
- font-weight: 700;
- letter-spacing: 1.08px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
 }
 
 
-.team-photo{
- background: #FFF;
- /* width: 1600px; */
+.team-photo {
+    background: #FFF;
+    /* width: 1600px; */
 }
-.team-photo img{
+
+.team-photo img {
     width: 270px;
     height: 260px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-title{
+.team-title {
     color: #212121;
- text-align: center;
- font-family: Roboto;
- font-size: 16px;
- font-weight: 500;
- letter-spacing: 0.48px;
-}
-.team-text{
-    color: #757575;
- text-align: center;
- font-family: Roboto;
- font-size: 16px;
- font-weight: 400;
- letter-spacing: 0.48px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
 }
 
-.logo-footer{
-    color: #FFF;
- font-family: Raleway;
- font-size: 26px;
- font-weight: 700;
- letter-spacing: 0.78px;
-}
-.adress-link{
+.team-text {
     color: #757575;
- font-family: Roboto;
- font-size: 14px;
- font-weight: 400;
- line-height: 24px; /* 171.429% */
- letter-spacing: 0.42px;
- width: 136px;
- height: 21px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
 }
-.adress-name{
+
+.logo-footer {
     color: #FFF;
- font-family: Roboto;
- font-size: 14px;
- font-weight: 400;
- line-height: 24px; /* 171.429% */
- letter-spacing: 0.42px;
- width: 231px;
- height: 21px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
 }
-.about-button{
+
+.adress-link {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+    width: 136px;
+    height: 21px;
+}
+
+.adress-name {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+    width: 231px;
+    height: 21px;
+}
+
+.about-button {
     justify-content: center;
     display: flex;
 }
-.button{
-    border:none;
+
+.button {
+    border: none;
     margin-top: 95px;
     margin-bottom: 50px;
 }
+
 .button:hover {
     background-color: #2196F3;
     transition: 0.7s;
 }
-#footer{
- background-color: #2F303A;
- /* width: 1600px; */
-}
-#ee{
+
+#footer {
+    background-color: #2F303A;
     /* width: 1600px; */
- height: 1680px;
- background: #F5F4FA;
 }
+
+#ee {
+    /* width: 1600px; */
+    height: 1680px;
+    background: #F5F4FA;
+}
+
 /* .photo{
     width: 270px;
  height: 260px;
@@ -175,15 +196,15 @@ li {
 }
 
 
-:root{ 
-    --punkt: #FFF; 
-    --nom: rgba(255, 255, 255, 0.60); 
-    --cek-u: #757575; 
+:root {
+    --punkt: #FFF;
+    --nom: rgba(255, 255, 255, 0.60);
+    --cek-u: #757575;
     --cek-l: #212121;
     --golova-button: rgba(0, 0, 0, 0.15);
-    --golova:#2F303A;
+    --golova: #2F303A;
     --ee: #F5F4FA;
-    --com:#2196F3;
+    --com: #2196F3;
     --logo: #000;
 }
 
@@ -192,85 +213,106 @@ li {
     margin: 0 auto;
     padding: 0 15px;
 }
-.navigation-list{
+
+.navigation-list {
     display: flex;
 
 }
-.navigation-item{
+
+.navigation-item {
     margin-right: 50px;
 
 }
-.contakts{
+
+.contakts {
     display: flex;
 }
-.contakts-item{
+
+.contakts-item {
     margin-left: 50px;
 
 }
-.navigation{
+
+.navigation {
     display: flex;
     align-items: center;
 }
-.header-wrap{
+
+.header-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.logo{
+
+.logo {
     margin-right: 93px;
 }
-.benefits-list{
+
+.benefits-list {
     display: flex;
     justify-content: space-between;
 }
-.benefits-item{
+
+.benefits-item {
     width: 270px;
 }
-.about-photo{
+
+.about-photo {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-item{
+
+.about-item {
     width: 370px;
     margin: 30px;
 }
-.team-list{
+
+.team-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     width: 1170px;
 
 }
-.team-photo{
+
+.team-photo {
     width: 270px;
 }
-.adress{
+
+.adress {
     display: flex;
     flex-direction: column;
 }
-.adress-link{
+
+.adress-link {
     margin-top: 9px;
 }
-.adress-name{
+
+.adress-name {
     margin-top: 20px;
 }
-.team-item{
+
+.team-item {
     margin-bottom: 50px;
 }
-.about .container{
+
+.about .container {
     padding-bottom: 94px;
 }
-.benefits .container{
+
+.benefits .container {
     padding-bottom: 94px;
 }
-.team-title-photo{
+
+.team-title-photo {
     box-shadow: 1px 1px 1px gainsboro;
     padding: 30px;
     margin: 30px;
 }
-.button{
+
+.button {
     width: 125px;
     height: 38px;
     padding: 8px;
@@ -279,21 +321,22 @@ li {
     background-color: F5F4FA;
     box-shadow: 1px 1px 1px gainsboro;
 }
-.about-button{
+
+.about-button {
     margin: 94px;
     margin-bottom: 34px;
 }
-.about-item::before{
+
+.about-item::before {
     background-image: url(photo.jpg), url(photo1.jpg), url(photo2.jpg);
 }
-.photo::before{
+
+.photo::before {
     background-image: url(./iimg/imgx.jpg), url(./iimg/img;.jpg), url(./iimg/imgh.jpg), url(./iimg/imgll.jpg);
     width: 270px;
     height: 260px;
 }
-.team-title-photo::before{
-    background-image: url(./iimg/img10.png), url(./iimg/img11.png), url(./iimg/img12.png), url(./iimg/img13.png), url(./iimg/img14.png), url(./iimg/img15.png), url(./iimg/img16.png), url(./iimg/img17.png), url(./iimg/img18.png),;
+
+.team-title-photo::before {
+    background-image: url(./iimg/img10.png), url(./iimg/img11.png), url(./iimg/img12.png), url(./iimg/img13.png), url(./iimg/img14.png), url(./iimg/img15.png), url(./iimg/img16.png), url(./iimg/img17.png), url(./iimg/img18.png), ;
 }
-
-
-

@@ -1,47 +1,61 @@
-body{
+body {
     box-sizing: border-box;
     margin: 0;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
 
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
 
-header{
+header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
-#main{
+
+#main {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-#benefits{
+
+#benefits {
     padding-top: 94px;
     padding-left: 94px;
 }
-#about{
+
+#about {
     padding-left: 94px;
 }
-#team{
+
+#team {
     background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
-#footer{
+
+#footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
