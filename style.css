@@ -9,6 +9,7 @@
   --ee: #f5f4fa; 
   --com: #2196f3; 
   --logo: #000; 
+  --icon-one: #AFB1B8;
 } 
 header { 
   padding-top: 24px; 
@@ -57,7 +58,19 @@ span {
   font-size: 14px; 
   font-weight: 500; 
   letter-spacing: 0.28px; 
+  display: flex;
+  align-items: center;
 } 
+.contakts-item:hover .contacts-icon{
+  fill: var(--com);
+}
+.contacts-icon{
+  margin: 10px;
+  fill: var(--cek-u);
+}
+.contakts .contakts-item:hover{
+  color: var(--com);
+}
  
 /* #main { 
   background-image: url(Img.png);
@@ -156,7 +169,53 @@ h2 {
   letter-spacing: 0.48px; 
   margin-bottom: 30px; 
 } 
- 
+.team-cart-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-top: 16px;
+}
+.team-icon-media{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill:var(--icon-one);
+}
+.team-icon-media:hover{
+  background-color:var(--com);
+  fill:var(--punkt);
+  border-radius: 50%;
+}
+.clients-item{
+ text-align: center;
+ padding-top: 94px;
+ padding-bottom: 50px; 
+}
+.clients-img{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+.clients-icon{
+  border: solid var(--icon-one) 1px;
+  margin: 15px;
+  border-radius: 4px;
+}
+
+.clients-contacts-icon{
+  width: 170px;
+  height: 92px;
+  fill: var(--icon-one);
+}
+.clients-contacts-icon:hover{
+  fill:var(--com);
+}
+.clients-icon:hover{
+  border-color:var(--com);
+}
 .logo-footer { 
   color: #fff; 
   font-family: Raleway; 
@@ -164,6 +223,10 @@ h2 {
   font-weight: 700; 
   letter-spacing: 0.78px; 
 } 
+.team-contacts-icon{
+  width: 20px;
+  height: 20px;
+}
  
 .adress-link { 
   color: #757575; 
@@ -188,6 +251,32 @@ h2 {
   width: 231px; 
   height: 21px; 
 } 
+.footer-text{
+  font-family: Roboto; 
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer-cart-list{
+  display: flex;
+  margin: 10px;
+}
+.footer-icon{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff10;
+}
+.footer-title-one{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contacts-icon{
+  width: 20px;
+  height: 20px;
+  fill: var(--punkt);
+  align-items: center;
+}
  
 .about-button { 
   justify-content: center; 
@@ -207,8 +296,8 @@ h2 {
  
 #footer { 
   background-color: #2f303a; 
-  padding-top: 60px; 
-  padding-bottom: 60px; 
+  /* padding-top: 60px; 
+  padding-bottom: 60px;  */
 } 
  
 .navigation-list { 
@@ -221,6 +310,7 @@ h2 {
  
 .contakts { 
   display: flex; 
+
 } 
  
 .contakts-item { 
