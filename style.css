@@ -270,6 +270,9 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.footer-title{
+  padding-left: 70px;
+}
 
 .footer-contacts-icon{
   width: 20px;
