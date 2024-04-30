@@ -485,6 +485,9 @@ background-color: #2196f3;
   color: #fff;
   font-family: Roboto;
   font-weight: 700;
-  font-size: 14px
-  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
