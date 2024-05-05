@@ -50,6 +50,65 @@
                 <div class="container"> 
                     <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1> 
                     <button class="main-button">Замовити послугу</button> 
+
+                    <div class="backdrop is-hidden">
+                        <div class="modal">
+                            <div class="button-clouse">
+                                <button class="btn">
+                                    <svg class="icon-close">
+                                        <use href="./iimg/symbol-defs.svg#icon-close-black"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                            <h3 class="text-modal">Залиште свої дані, ми вам передзвонимо</h3>
+                            <div class="form-div">
+                                <form class="form-modal">
+                                    <p class="form-text">Ім'я</p>
+                                    <label class="label-modal">
+                                        <input type="text" class="input-modal">
+                                    </label>
+                                    <svg class="form-svg">
+                                        <use href="./iimg/symbol-defs.svg#icon-person" class="form-use"></use>
+                                    </svg>
+                                </form>
+    
+                                <form class="form-modal">
+                                    <p class="form-text">Телефон</p>
+                                    <label class="label-modal">
+                                        <input type="text" class="input-modal">
+                                    </label>
+                                    <svg class="form-svg">
+                                        <use href="./iimg/symbol-defs.svg#icon-phone" class="form-use"></use>
+                                    </svg>
+                                </form>
+    
+                                <form class="form-modal">
+                                    <p class="form-text">Пошта</p>
+                                    <label class="label-modal">
+                                        <input type="text" class="input-modal">
+                                    </label>
+                                    <svg class="form-svg">
+                                        <use href="./iimg/symbol-defs.svg#icon-email" class="form-use"></use>
+                                    </svg>
+                                </form>
+                            </div>
+                            <form class="form-modal-com">
+                                <p class="form-text">Коментар</p>
+                                <label class="label-modal">
+                                    <input type="text" placeholder="Введіть текст" class="input--modal">
+                                </label>
+                            </form>
+
+                            <form class="checkbox">
+                                <label class="checkbox-modal">
+                                  <input type="checkbox" class="checkbox-input">
+                                  Погоджуюся з розсилкою та приймаю <a href="#" class="a-form">Умови договору</a>
+                                </label>
+                            </form>
+                            <button class="main-button">Відправити</button> 
+                        </div>
+                    </div>
+
                 </div> 
             </section> 
  
@@ -390,6 +449,7 @@
                 </div>
             </div> 
         </footer> 
+        <script src="modal.js"></script>
 </body> 
  
 </html>
