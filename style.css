@@ -631,3 +631,19 @@ background-color: #2196f3;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 5;
 }
+.label-modal:hover .form-use{
+  fill: var(--com);
+}
+.label-modal:hover{
+  color: var(--com);
+}
+.label-modal:hover .input-modal{
+  border-color: var(--com);
+}
+.label--modal:hover{
+  color: var(--com);
+}
+.label--modal:hover .input--modal{
+  border-color: var(--com);
+}
+
