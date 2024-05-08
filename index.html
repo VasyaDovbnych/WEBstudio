@@ -49,12 +49,12 @@
             <section class="main" id="main"> 
                 <div class="container"> 
                     <h1 class="title">Ефективні рішення для <br>вашого бізнесу</h1> 
-                    <button class="main-button">Замовити послугу</button> 
+                    <button class="main-button" data-modal-open>Замовити послугу</button> 
 
-                    <div class="backdrop is-hidden">
+                    <div class="backdrop is-hidden" data-modal>
                         <div class="modal">
                             <div class="button-clouse">
-                                <button class="btn">
+                                <button class="btn" data-modal-close>
                                     <svg class="icon-close">
                                         <use href="./iimg/symbol-defs.svg#icon-close-black"></use>
                                     </svg>
@@ -66,7 +66,7 @@
                                 <form class="form-modal">
                                     <label class="label-modal">
                                         <p class="form-text">Ім'я</p>
-                                        <input type="text" class="input-modal">
+                                        <input type="text" class="input-modal" required>
                                         <svg class="form-svg">
                                             <use href="./iimg/symbol-defs.svg#icon-person" class="form-use"></use>
                                         </svg>
@@ -74,7 +74,7 @@
 
                                     <label class="label-modal">
                                         <p class="form-text">Телефон</p>
-                                        <input type="text" class="input-modal">
+                                        <input type="number" class="input-modal" required>
                                         <svg class="form-svg">
                                             <use href="./iimg/symbol-defs.svg#icon-phone" class="form-use"></use>
                                         </svg>
@@ -82,7 +82,7 @@
 
                                     <label class="label-modal">
                                         <p class="form-text">Пошта</p>
-                                        <input type="text" class="input-modal">
+                                        <input type="email" class="input-modal" required>
                                         <svg class="form-svg">
                                             <use href="./iimg/symbol-defs.svg#icon-email" class="form-use"></use>
                                         </svg>
@@ -91,7 +91,7 @@
 
                                     <label class="label--modal">
                                         <p class="form-text">Коментар</p>
-                                        <input type="text" placeholder="Введіть текст" class="input--modal">
+                                        <input type="text" placeholder="Введіть текст" class="input--modal" required>
                                     </label>
                                 </form>
                                 <form class="checkbox">
@@ -430,13 +430,11 @@
                     <div class="footer-title-two">
                         <p class="footer-text">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
                         <div class="form-button">
-                            <div class="button-form">
-                                <form class="form-footer">
-                                    <label class="label-footer">
-                                        <input type="text" placeholder="E-mail" class="input-footer">
-                                    </label>
-                                </form>
-                            </div>
+                            <form class="form-footer">
+                                <label class="label-footer">
+                                    <input type="text" placeholder="E-mail" class="input-footer">
+                                </label>
+                            </form>
                             <button class="button-footer">Підписатися
                                 <svg class="footer-button-icon">
                                     <use href="./iimg/symbol-defs.svg#icon-send"></use>
