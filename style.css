@@ -679,15 +679,25 @@ background-color: #2196f3;
 .container-item:hover::after{
   opacity: 1;
 }
+.portfolio-wrap{
+  position: relative;
+  overflow: hidden;
+}
 .overlay {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 370px;
   height: 295px;
+  padding: 0;
+  margin: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+  transform: translateY(100%);
 }
 
 .team-title-photo-one:hover .overlay {
+  transform: translateY(0%);
   opacity: 1;
 }
