@@ -407,7 +407,6 @@ h2 {
 .team-title-photo-one { 
   box-shadow: 1px 1px 1px gainsboro; 
   width: 370px; 
- 
 }
  
 .portfolio-button { 
@@ -684,13 +683,11 @@ background-color: #2196f3;
   position: absolute;
   width: 370px;
   height: 295px;
-  padding: 0;
-  margin: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
 }
 
 .team-title-photo-one:hover .overlay {
-  opacity: 10;
+  opacity: 1;
 }
