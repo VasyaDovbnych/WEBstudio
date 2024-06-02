@@ -185,6 +185,8 @@ h2 {
   align-items: center;
   justify-content: center;
   fill:var(--icon-one);
+  animation-duration: 250ms;
+  transition-property: fill, background-color, border-radius;
 }
 .team-icon-media:hover{
   background-color:var(--com);
