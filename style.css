@@ -399,16 +399,6 @@ h2 {
 .benefits { 
   padding-top: 94px; 
   padding-bottom: 94px; 
-} 
- 
-.team-title-photo { 
-  box-shadow: 1px 1px 1px gainsboro; 
-  width: 370px; 
- 
-} 
-.team-title-photo-one { 
-  box-shadow: 1px 1px 1px gainsboro; 
-  width: 370px; 
 }
  
 .portfolio-button { 
@@ -687,26 +677,6 @@ background-color: #2196f3;
   position: relative;
   overflow: hidden;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 370px;
-  height: 295px;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #2196F390;
-  transform: translateY(100%);
-  color: #fff;
-  font-family: roboto;
-  font-size: 18px;
-  align-items: center;
-  display: flex;
-  padding-left: 24px;
-}
-
 .team-title-photo-one:hover .overlay {
   transform: translateY(0%);
   opacity: 1;
